@@ -1,0 +1,48 @@
+[7868:8428:0305/110328.073:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[7868:22408:0305/110328.297:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[7868:8428:0305/110328.369:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[21752:11492:0305/110337.452:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-D75A84676C66B1EA5C341AF190560DA4 will be ignored
+[7868:8428:0305/110338.155:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[7868:8428:0305/110338.155:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[7868:8428:0305/110338.156:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[7868:8428:0305/110338.156:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[7868:11284:0305/110338.231:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[18764:19088:0305/110429.240:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[7868:4320:0305/130904.600:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0305/130904.606:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:4320:0305/130910.001:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0305/130910.011:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:4320:0305/130920.005:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0305/130920.029:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:4320:0305/130940.039:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0305/130940.045:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:8428:0305/162023.772:ERROR:device_event_log_impl.cc(196)] [16:20:23.512] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+[7868:8428:0305/162023.772:ERROR:device_event_log_impl.cc(196)] [16:20:23.516] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+[7868:8428:0305/162023.772:ERROR:device_event_log_impl.cc(196)] [16:20:23.543] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Dati disponibili esauriti. (0x103)
+[7868:8428:0305/162023.773:ERROR:device_event_log_impl.cc(196)] [16:20:23.559] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Dati disponibili esauriti. (0x103)
+[7868:12416:0305/162037.891:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0305/162037.921:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:8428:0309/152444.478:ERROR:device_event_log_impl.cc(196)] [15:24:43.811] USB: usb_service_win.cc:73 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 23}) failed: Impossibile trovare elemento. (0x490)
+[7868:8428:0309/152444.478:ERROR:device_event_log_impl.cc(196)] [15:24:43.812] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+[7868:8428:0309/152444.484:ERROR:device_event_log_impl.cc(196)] [15:24:43.870] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Dati disponibili esauriti. (0x103)
+[7868:8428:0309/164732.448:ERROR:device_event_log_impl.cc(196)] [16:47:32.398] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+[7868:8428:0309/164732.449:ERROR:device_event_log_impl.cc(196)] [16:47:32.437] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Dati disponibili esauriti. (0x103)
+[7868:8428:0309/164732.449:ERROR:device_event_log_impl.cc(196)] [16:47:32.443] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Dati disponibili esauriti. (0x103)
+[7868:8428:0309/164732.450:ERROR:device_event_log_impl.cc(196)] [16:47:32.450] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Dati disponibili esauriti. (0x103)
+[7868:4320:0309/170136.865:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0309/170136.873:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:4320:0309/170141.871:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0309/170141.899:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:4320:0309/170151.875:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0309/170151.924:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:4320:0309/170211.882:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:2008:0309/170211.941:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:12416:0309/170222.215:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0309/170222.233:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:22268:0309/170222.312:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[7868:4320:0309/170222.313:WARNING:dns_config_service_win.cc(605)] Failed to read DnsConfig.
+[23728:20508:0309/170231.288:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -200
+[7868:8428:0309/171048.209:ERROR:extension_registrar.cc(549)] Failed to unregister service worker for extension efaidnbmnnnibpcajpcglclefindmkaj
+[7868:8428:0309/171116.201:ERROR:extension_registrar.cc(549)] Failed to unregister service worker for extension fheoggkfdfchfphceeifdbepaooicaho
+[7868:8428:0309/171317.958:ERROR:device_event_log_impl.cc(196)] [17:13:17.759] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+[7868:8428:0309/172038.232:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

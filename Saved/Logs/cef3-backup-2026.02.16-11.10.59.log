@@ -1,0 +1,8 @@
+[356:13592:0216/121043.181:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[356:10836:0216/121043.473:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[356:13592:0216/121043.564:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[356:13592:0216/121058.655:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,5]
+[356:13592:0216/121058.656:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,5]
+[356:13592:0216/121058.656:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,5]
+[356:13592:0216/121058.657:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,5]
+[356:5652:0216/121059.773:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,5]
