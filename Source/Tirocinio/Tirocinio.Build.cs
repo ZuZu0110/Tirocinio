@@ -18,8 +18,11 @@ public class Tirocinio : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
-			"Slate"
-		});
+			"Slate",
+			"HTTP",
+			"Json",
+			"JsonUtilities"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
