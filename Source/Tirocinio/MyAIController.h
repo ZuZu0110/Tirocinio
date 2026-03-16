@@ -1,20 +1,27 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
-#include "EngineMinimal.h"
+#include "CoreMinimal.h"
 #include "AIController.h"
-#include "MyAIController.generated.h"
+class IHttpRequest;
+class IHttpResponse;
+#include "Interfaces/IHttpRequest.h"
+#include "MyAIController.generated.h" // Deve essere l'ultimo include!
 
-/**
- * 
- */
-UCLASS()
+
+
+UCLASS() 
 class TIROCINIO_API AMyAIController : public AAIController
 {
 	GENERATED_BODY()
+
 public:
-	virtual void BeginPlay() override;
 	UFUNCTION(BlueprintCallable, Category = "AI")
-	FString TalkToPlayer();
+	void AskGemini(FString UserPrompt);
+
+	UPROPERTY(BlueprintAssignable, Category = "AI")
+	FOnMessageReceived OnMessageReceived;
+
+private:
+	// Usiamo FHttpRequestPtr e FHttpResponsePtr (non serve includere l'header qui)
+	void OnGeminiResponseReceived(void* Request, void* Response, bool bWasSuccessful);
 };

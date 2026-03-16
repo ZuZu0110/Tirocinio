@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Tirocinio",
+			"Path": "..\\Source\\Tirocinio.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TirocinioEditor",
+			"Path": "..\\Source\\TirocinioEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+[24956:21980:0316/105814.826:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[24956:22420:0316/105814.970:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[24956:21980:0316/105815.014:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[21880:25596:0316/105822.769:ERROR:backend_impl.cc(989)] Critical error found -8
+[21880:25596:0316/105822.943:WARNING:storage_block-inl.h(138)] Failed data load.
+[25132:16372:0316/105823.009:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-66188474D150F0CC181083DAE3DEC49A will be ignored
+[21880:15384:0316/105825.781:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[21880:15384:0316/105825.817:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[21880:15384:0316/105838.000:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[21880:15384:0316/105851.667:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[24956:21980:0316/111402.392:ERROR:device_event_log_impl.cc(196)] [11:14:02.376] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+[24956:21980:0316/112718.973:WARNING:sad_tab.cc(255)] Tab Killed: https://editor.unrealengine.com/
+[24956:21980:0316/112720.500:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[24956:21980:0316/112720.838:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=1
+[24956:21980:0316/112720.838:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 1 time(s)
+[24956:21980:0316/112721.834:WARNING:gpu_process_host.cc(1029)] Reinitialized the GPU process after a crash. The reported initialization time was 168 ms

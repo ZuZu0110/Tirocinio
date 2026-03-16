@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore.txt" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tirocinio.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TirocinioEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\Tirocinio">
+      <UniqueIdentifier>{BED860E9-F7CF-36EA-A758-6499749C6D5F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\MyAIController.cpp">
+      <Filter>Source\Tirocinio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\MyAIController.h">
+      <Filter>Source\Tirocinio</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Tirocinio\Tirocinio.Build.cs">
+      <Filter>Source\Tirocinio</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tirocinio\Tirocinio.cpp">
+      <Filter>Source\Tirocinio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Tirocinio.h">
+      <Filter>Source\Tirocinio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\TirocinioCharacter.cpp">
+      <Filter>Source\Tirocinio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\TirocinioCharacter.h">
+      <Filter>Source\Tirocinio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\TirocinioGameMode.cpp">
+      <Filter>Source\Tirocinio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\TirocinioGameMode.h">
+      <Filter>Source\Tirocinio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\TirocinioPlayerController.cpp">
+      <Filter>Source\Tirocinio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\TirocinioPlayerController.h">
+      <Filter>Source\Tirocinio</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_Combat">
+      <UniqueIdentifier>{C5A56C83-4DD1-3223-9986-A2EEEE8FF408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tirocinio\Variant_Combat\AI">
+      <UniqueIdentifier>{024CA990-79B1-3411-B38F-15AEC55C30C0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\Tirocinio\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_Combat\Animation">
+      <UniqueIdentifier>{AE46F7EA-A421-3EF1-9D86-E6BF1124C299}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\Tirocinio\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\Tirocinio\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\Tirocinio\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{4E75718B-1EE7-3B49-8642-69F6FA69ED4B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{058058EE-51B8-39E4-A377-34CB736CCFF8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\Tirocinio\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_Combat\UI">
+      <UniqueIdentifier>{390BFA6F-3B22-38A3-93FD-9D1AD9A4AB0E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\Tirocinio\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\Tirocinio\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_Platforming">
+      <UniqueIdentifier>{27CA3CBD-613A-3B55-B093-B195F0E7729C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tirocinio\Variant_Platforming\Animation">
+      <UniqueIdentifier>{CBD5F0FB-9156-3817-8348-E33CC1E05CCD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\Tirocinio\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\Tirocinio\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\Tirocinio\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\Tirocinio\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\Tirocinio\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\Tirocinio\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\Tirocinio\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\Tirocinio\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_SideScrolling">
+      <UniqueIdentifier>{963210A9-7B36-328B-8265-C366EFC334D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tirocinio\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{2298FB7C-4845-36ED-B7C6-31E602486097}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{5E9A2B1D-412F-3166-B624-BFA18BB98D7C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{F1FEB699-03C2-3A5B-AE5D-E4CEBDB70789}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tirocinio\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{D43F2433-633C-34A9-95BE-30BCCE18ABAF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tirocinio\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tirocinio\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\Tirocinio\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+    <None Include="..\..\Tirocinio.uproject" />
+  </ItemGroup>
+</Project>
