@@ -1,7 +1,6 @@
-.vs/
-Intermediate/
-Saved/
 Binaries/
 DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
 *.sln
-*.pdb
